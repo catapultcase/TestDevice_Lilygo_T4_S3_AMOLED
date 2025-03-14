@@ -39,8 +39,8 @@ int payloadMetadataRows = 2;    // Default number of rows
 int numSensors = payloadMetadataColumns * payloadMetadataRows; // Default number of sensors
 
 // WiFi credentials
-const char* ssid = "Jon6";
-const char* password = "fv4!F48P8&tR";
+const char* ssid = "ssid";
+const char* password = "password";
 
 // Create AsyncWebServer object on port 80
 AsyncWebServer server(80);
